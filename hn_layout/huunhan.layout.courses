@@ -1,0 +1,135 @@
+      <!-- START COURSES -->
+      <div class="hn-courses">
+         <div class="container">
+            <div class="hn-courses-box">
+               <div class="row">
+                  <div class="col-12">
+                     <div class="hn-courses-box-title text-center">
+                        <p>THE BEST</p>
+                        <h1><strong>Top Popular Courses</strong></h1>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <!-- START COURSES BOX-->
+                  <div class="col-12 col-lg-6">
+                     <div class="hn-course-box-item d-flex align-items-center">
+                        <div class="row">
+                           <div class="col-lg-6">
+                              <div class="hn-course-content">
+                                 <h5><strong>Business for begginers</strong></h5>
+                                 <span>By Simon Smith   |  March 18, 2018</span>
+                                 <div class="hn-course-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                 </div>
+                                 <p>
+                                    Cras vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est, in euismod.
+                                 </p>
+                                 <a href="">SEE MORE</a>
+                              </div>
+                           </div>
+                           <div class="col-lg-6">
+                              <div class="hn-course-image" style="background-image: url(hn_images/huunhan-pc-1.jpg);">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- END COURSES BOX-->
+                  <!-- START COURSES BOX-->
+                  <div class="col-12 col-lg-6">
+                     <div class="hn-course-box-item">
+                        <div class="row">
+                           <div class="col-lg-6">
+                              <div class="hn-course-content">
+                                 <h5><strong>Business for begginers</strong></h5>
+                                 <span>By Simon Smith   |  March 18, 2018</span>
+                                 <div class="hn-course-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                 </div>
+                                 <p>
+                                    Cras vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est, in euismod.
+                                 </p>
+                                 <a href="">SEE MORE</a>
+                              </div>
+                           </div>
+                           <div class="col-lg-6">
+                              <div class="hn-course-image" style="background-image: url(hn_images/huunhan-pc-2.jpg);">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- END COURSES BOX-->
+                  <!-- START COURSES BOX-->
+                  <div class="col-12 col-lg-6">
+                     <div class="hn-course-box-item">
+                        <div class="row">
+                           <div class="col-lg-6">
+                              <div class="hn-course-content">
+                                 <h5><strong>Business for begginers</strong></h5>
+                                 <span>By Simon Smith   |  March 18, 2018</span>
+                                 <div class="hn-course-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                 </div>
+                                 <p>
+                                    Cras vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est, in euismod.
+                                 </p>
+                                 <a href="">SEE MORE</a>
+                              </div>
+                           </div>
+                           <div class="col-lg-6">
+                              <div class="hn-course-image" style="background-image: url(hn_images/huunhan-pc-3.jpg);">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- END COURSES BOX-->
+                  <!-- START COURSES BOX-->
+                  <div class="col-12 col-lg-6">
+                     <div class="hn-course-box-item">
+                        <div class="row">
+                           <div class="col-lg-6">
+                              <div class="hn-course-content">
+                                 <h5><strong>Business for begginers</strong></h5>
+                                 <span>By Simon Smith   |  March 18, 2018</span>
+                                 <div class="hn-course-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                 </div>
+                                 <p>
+                                    Cras vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est, in euismod.
+                                 </p>
+                                 <a href="">SEE MORE</a>
+                              </div>
+                           </div>
+                           <div class="col-lg-6">
+                              <div class="hn-course-image" style="background-image: url(hn_images/huunhan-pc-4.jpg);">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- END COURSES BOX-->
+                  <!-- START COURSES BOX-->
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- END COURSES <-->

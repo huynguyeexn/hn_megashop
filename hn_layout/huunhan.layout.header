@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>ACADEMY - Education online</title>
+      <link rel="icon" href="hn_images/huunhan-favicon.ico">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- BOOTSTRAP CSS -->
+      <link rel="stylesheet" href="hn_css/hn_bootstrap_css/bootstrap.min.css">
+      <!-- FONT AWESOME -->
+      <link rel="stylesheet" href="hn_font/hn_fontawesome/css/all.min.css">
+      <!-- STYLE CSS FILE -->
+      <link rel="stylesheet" href="huunhan.style.css">
+      <!-- fancybox css -->
+      <link rel="stylesheet" href="hn_css/jquery.fancybox.min.css" />
+   </head>
+   <body>
+   <!-- START HEADER -->
+         <div class="hn-header">
+            <!-- START TOP-HEADER -->
+            <div class="hn-top-header d-flex align-items-center">
+               <div class="container">
+                  <div class="row w-100 d-flex justify-content-between">
+                     <div class="hn-header-logo">
+                        <a href="huunhan.index.php">
+                           <img src="hn_images/huunhan-logo.png" alt="">
+                        </a>
+                     </div>
+                     <div class="hn-header-link text-right">
+                        <a href="huunhan.login.php">Đăng nhập</a> |
+                        <a href="huunhan.signup.php">Đăng ký</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- END TOP-HEADER -->
+
+            <!-- START MENU LEFT -->
+            <div class="hn-navbar-collapse navbar-collapse collapse d-lg-none" style=""id="navbarToggleExternalContent">
+               <!-- CLOSE MENU -->
+               <button onclick="hide_navbar()">X</button>
+               <ul>
+                  <li><a href="huunhan.index.php">TRANG CHỦ</a></li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     HỌC TẬP
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
+                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
+                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
+                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
+                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
+                     </div>
+                  </li>
+                  <li><a href="huunhan.courses.php">KHÓA HỌC</a></li>
+                  <li><a href="huunhan.contact.php">HỖ TRỢ</a></li>
+                  <li><a href="huunhan.about.php">VỀ CHÚNG TÔI</a></li>
+               </ul>
+            </div>
+            <!-- END MENU LEFT -->
+            <div class="hn-navbar" id="js-sticky">
+               <div class="container">
+                  <div class="hn-header-navbar d-flex align-items-center justify-content-between">
+                     <nav class="hn-menu">
+                        <!-- MENU LEFT TOGGLER -->
+                        <button class="navbar-toggler d-block d-lg-none" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                        </button>
+                        <ul class="d-none d-lg-block">
+                           <li><a href="huunhan.index.php">TRANG CHỦ</a></li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     HỌC TẬP
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
+                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
+                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
+                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
+                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
+                     </div>
+                  </li>
+                  <li><a href="huunhan.courses.php">KHÓA HỌC</a></li>
+                  <li><a href="huunhan.contact.php">HỖ TRỢ</a></li>
+                  <li><a href="huunhan.about.php">VỀ CHÚNG TÔI</a></li>
+                        </ul>
+                     </nav>
+                     <div class="hn-header-contact d-flex align-items-center">
+                        <i class="fas fa-phone icon-telephone" style="margin: 5px 20px;"></i>
+                        <span class="d-none d-md-block">(+84) 929 77 88 99</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- END HEADER -->

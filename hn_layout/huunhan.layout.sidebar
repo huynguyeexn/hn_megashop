@@ -1,0 +1,56 @@
+<div class="hn-blog-sidebar">
+                     <div class="hn-blog-search">
+                        <form action="#" method="post">
+                                <input type="search" name="search" id="Search" placeholder="Search">
+                                <button type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                     </div>
+                     <div class="hn-blog-categories">
+                        <h5><strong>Categories</strong></h5>
+                        <ul>
+                           <li><a href="">Courses</a></li>
+                           <li><a href="">Education</a></li>
+                           <li><a href="">Teachers</a></li>
+                           <li><a href="">Uncategories</a></li>
+                        </ul>
+                     </div>
+                     <div class="hn-blog-latest-posts">
+                        <h5><strong>Lastest Post</strong></h5>
+                        <div class="hn-last-post">
+                           <div class="hn-last-post-img">
+                              <img src="hn_images/blog-img/lb-1.jpg" alt="">
+                           </div>
+                           <div class="hn-last-post-content">
+                              <a href="">New Courses for you</a>
+                              <p>March 18, 2018</p>
+                           </div>
+                        </div>
+                        <div class="hn-last-post">
+                           <div class="hn-last-post-img">
+                              <img src="hn_images/blog-img/lb-3.jpg" alt="">
+                           </div>
+                           <div class="hn-last-post-content">
+                              <a href="">New Courses for you</a>
+                              <p>March 18, 2018</p>
+                           </div>
+                        </div>
+                        <div class="hn-last-post">
+                           <div class="hn-last-post-img">
+                              <img src="hn_images/blog-img/lb-4.jpg" alt="">
+                           </div>
+                           <div class="hn-last-post-content">
+                              <a href="">New Courses for you</a>
+                              <p>March 18, 2018</p>
+                           </div>
+                        </div>
+                        <div class="hn-last-post">
+                           <div class="hn-last-post-img">
+                              <img src="hn_images/blog-img/lb-1.jpg" alt="">
+                           </div>
+                           <div class="hn-last-post-content">
+                              <a href="">New Courses for you</a>
+                              <p>March 18, 2018</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>

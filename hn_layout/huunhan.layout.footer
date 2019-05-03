@@ -1,0 +1,127 @@
+
+      <!-- START FOOTER -->
+      <div class="hn-footer">
+         <div class="container">
+            <div class="row">
+               <!-- START FOOTER BOX -->
+               <div class="col-12 col-sm-6 col-lg-3">
+                  <div class="hn-footer-box">
+                     <div class="hn-footer-box-title">
+                        <a href=""><img src="hn_images/huunhan-logo2.png" alt=""></a>
+                     </div>
+                     <p>Cras vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est, in euismod erat. Ut at erat et arcu pulvinar cursus a eget.</p>
+                     <a href=""><i class="fab fa-facebook-f"></i></a>
+                     <a href=""><i class="fab fa-twitter"></i></a>
+                     <a href=""><i class="fab fa-instagram"></i></a>
+                     <a href=""><i class="fab fa-youtube"></i></a>
+                     <a href=""><i class="fab fa-vimeo-v"></i></a>
+                  </div>
+               </div>
+               <!-- END FOOTER BOX -->
+               <!-- START FOOTER BOX -->
+               <div class="col-12 col-sm-6 col-lg-3">
+                  <div class="hn-footer-box">
+                     <div class="hn-footer-box-title">
+                        <h5>USEFULL LINKS</h5>
+                     </div>
+                     <div class="hn-usefull-links">
+                        <ul>
+                           <li><a href="">Home</a></li>
+                           <li><a href="">Contact</a></li>
+                           <li><a href="">Courses</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <!-- END FOOTER BOX -->
+               <!-- START FOOTER BOX -->
+               <div class="col-12 col-sm-6 col-lg-3">
+                  <div class="hn-footer-box">
+                     <div class="hn-footer-box-title">
+                        <h5>GALLERY</h5>
+                     </div>
+                     <div class="hn-gallery-list d-flex justify-content-between flex-wrap">
+                        <a data-fancybox="gallery" href="hn_images/huunhan-gallery1.jpg" class="gallery-img" title="Gallery Image 1"><img src="hn_images/huunhan-gallery1.jpg" alt=""></a>
+                        <a data-fancybox="gallery" href="hn_images/huunhan-gallery2.jpg" class="gallery-img" title="Gallery Image 2"><img src="hn_images/huunhan-gallery2.jpg" alt=""></a>
+                        <a data-fancybox="gallery" href="hn_images/huunhan-gallery3.jpg" class="gallery-img" title="Gallery Image 3"><img src="hn_images/huunhan-gallery3.jpg" alt=""></a>
+                        <a data-fancybox="gallery" href="hn_images/huunhan-gallery4.jpg" class="gallery-img" title="Gallery Image 4"><img src="hn_images/huunhan-gallery4.jpg" alt=""></a>
+                        <a data-fancybox="gallery" href="hn_images/huunhan-gallery5.jpg" class="gallery-img" title="Gallery Image 5"><img src="hn_images/huunhan-gallery5.jpg" alt=""></a>
+                        <a data-fancybox="gallery" href="hn_images/huunhan-gallery6.jpg" class="gallery-img" title="Gallery Image 6"><img src="hn_images/huunhan-gallery6.jpg" alt=""></a>
+                     </div>
+                  </div>
+               </div>
+               <!-- END FOOTER BOX -->
+               <!-- START FOOTER BOX -->
+               <div class="col-12 col-sm-6 col-lg-3">
+                  <div class="hn-footer-box">
+                     <div class="hn-footer-box-title">
+                        <h5>CONTACT</h5>
+                     </div>
+                     <div class="hn-contact-item d-flex flex-row">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>4127/ 5B-C Mislane Road, Gibraltar, UK</p>
+                     </div>
+                     <div class="hn-contact-item d-flex flex-row">
+                        <i class="fas fa-phone"></i>
+                        <div class="row">
+                           <p>Main: 203-808-8613</p>
+                           <p>Office: 203-808-8648</p>
+                        </div>
+                     </div>
+                     <div class="hn-contact-item d-flex flex-row">
+                        <i class="fas fa-envelope-open-text"></i>
+                        <p>office@yourbusiness.com</p>
+                     </div>
+                  </div>
+               </div>
+               <!-- END FOOTER BOX -->
+            </div>
+         </div>
+      </div>
+      <!-- END FOOTER -->
+      <!-- END FOOTER COPYRIGHT -->
+      <div class="hn-copyright">
+         <div class="container">
+            <div class="row">
+               <div class="col-12 text-center">
+                  <p>Copyright ©2019 All rights reserved | This template is made with <i class="far fa-heart"></i> by Hui</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- END FOOTER COPYRIGHT -->
+   </body>
+   <!-- jquery.slim.min.js -->
+   <script src="hn_js/jquery-3.4.0.slim.min.js"></script>
+   <!-- jquery -->
+   <script src="hn_js/jquery-3.4.0.min.js"></script>
+   <!-- fancybox script -->
+   <script src="hn_js/jquery.fancybox.min.js"></script>
+   <!-- popper js -->
+   <script src="hn_js/popper.min.js"></script>
+   <!-- bootstrap.min.js -->
+   <script src="hn_js/hn_bootstrap_js/bootstrap.min.js"></script>
+   <!-- STICKY,SHOW HIDE NAVBAR SCRIPT -->
+   <script>
+      window.onscroll = function() {
+          myFunction()
+      };
+      var top_header = document.getElementsByClassName("hn-top-header")[0];
+      var navbar = document.getElementById("js-sticky");
+      var sticky = navbar.offsetTop + 40;
+      
+      function myFunction() {
+          if (window.pageYOffset >= sticky) {
+              navbar.classList.add("sticky"), top_header.style.padding = "30px 0px 80px 0px", navbar.style.transform = "translateY(0%)"
+          } else {
+              navbar.classList.remove("sticky"), top_header.style.padding = "30px 0px 0px 0px";
+              navbar.style.transform = "translateY(50%)"
+          }
+      }
+      
+      function hide_navbar() {
+          var a = document.getElementById("navbarToggleExternalContent");
+          a.classList.remove("show")
+      };
+   </script>
+</html>

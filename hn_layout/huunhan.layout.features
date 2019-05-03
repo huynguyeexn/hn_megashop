@@ -1,0 +1,80 @@
+            <div class="row mb-5">
+               <!-- FEATURES -->
+               <div class="col-12 col-md-6 col-lg-4">
+                  <div class="hn-features-item d-flex align-items-center mb-100 ">
+                     <div class="hn-features-icon">
+                        <i class="far fa-id-card"></i>
+                     </div>
+                     <div class="hn-features-content">
+                        <h4><strong>Business School</strong></h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                     </div>
+                  </div>
+               </div>
+               <!-- END FEATURES -->
+               <!-- FEATURES -->
+               <div class="col-12 col-md-6 col-lg-4">
+                  <div class="hn-features-item d-flex align-items-center mb-100 ">
+                     <div class="hn-features-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                     </div>
+                     <div class="hn-features-content">
+                        <h4><strong>Marketing</strong></h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                     </div>
+                  </div>
+               </div>
+               <!-- END FEATURES -->
+               <!-- FEATURES -->
+               <div class="col-12 col-md-6 col-lg-4">
+                  <div class="hn-features-item d-flex align-items-center mb-100 ">
+                     <div class="hn-features-icon">
+                        <i class="fas fa-camera-retro"></i>
+                     </div>
+                     <div class="hn-features-content">
+                        <h4><strong>Photography</strong></h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                     </div>
+                  </div>
+               </div>
+               <!-- END FEATURES -->
+               <!-- FEATURES -->
+               <div class="col-12 col-md-6 col-lg-4">
+                  <div class="hn-features-item d-flex align-items-center mb-100 ">
+                     <div class="hn-features-icon">
+                        <i class="fas fa-file-video"></i>
+                     </div>
+                     <div class="hn-features-content">
+                        <h4><strong>Social Media</strong></h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                     </div>
+                  </div>
+               </div>
+               <!-- END FEATURES -->
+               <!-- FEATURES -->
+               <div class="col-12 col-md-6 col-lg-4">
+                  <div class="hn-features-item d-flex align-items-center mb-100 ">
+                     <div class="hn-features-icon">
+                        <i class="fas fa-code"></i>
+                     </div>
+                     <div class="hn-features-content">
+                        <h4><strong>Development</strong></h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                     </div>
+                  </div>
+               </div>
+               <!-- END FEATURES -->
+               <!-- FEATURES -->
+               <div class="col-12 col-md-6 col-lg-4">
+                  <div class="hn-features-item d-flex align-items-center mb-100 ">
+                     <div class="hn-features-icon">
+                        <i class="fas fa-pencil-ruler"></i>
+                     </div>
+                     <div class="hn-features-content">
+                        <h4><strong>Design</strong></h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                     </div>
+                  </div>
+               </div>
+               <!-- END FEATURES -->
+            </div>
