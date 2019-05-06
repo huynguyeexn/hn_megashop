@@ -7,18 +7,23 @@ a {
 	color: #000000;
 }
 a:hover {
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
 	text-decoration: none;
-	color: #2D7D38;
+	color: #3ab54a;
 }
 ul,li{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
-
+input{
+	border: none;
+}
+p{
+	margin: 0;
+}
 
 
 
@@ -209,8 +214,9 @@ ul,li{
 
 
 .product-box-title{
-	height: 38px;
-	border-bottom: 2px solid #3ab54a;;
+	height: 40px;
+	border-bottom: 3px solid #00C01A;
+	margin-bottom: 20px;
 }
 .product-box-title h4{
 	color: #3ab54a;
@@ -218,9 +224,41 @@ ul,li{
 	line-height: 40px;
 }
 
+.product-box-title-nav{
+	height: 40px;
+}
+
+.product-box-title-nav ul{
+	height: 40px;
+	display: inline-block;
+	margin: 0;
+}
+.product-box-title-nav ul li{
+	height: 40px;
+	display: inline-block;
+	margin: 0;
+}
+
+.product-box-title-nav ul li:hover{
+	border-bottom: 3px solid #2D7D38;
+}
+.product-box-title-nav ul li:hover a{
+	color: #3ab54a;
+}
+.product-box-title-nav ul li a{
+	font-weight: 500;
+	line-height: 38px;
+	padding: 0 5px;
+}
+.product-box-title-nav .active{
+	border-bottom: 2px solid #2D7D38;
+}
+.product-box-title-nav .active a{
+	color: #3ab54a;
+}
 .product-box-slide .product-item{
 	position: relative;
-	margin: 20px 0;
+	margin-bottom: 20px;
 	background-color: #ffffff;
 	padding: 15px;
 	transition: all 0.5s;
@@ -287,4 +325,117 @@ ul,li{
     font-size: 1em;
     display: inline-block;
     color: #adadad;
+}
+
+
+.newsletter{
+	background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(http://adastraerrans.com/wp-content/uploads/2018/10/perky-colours-shaped-s-abc-wallpaper-full-hd-design-home-interior-kitchen-design.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 50px 0;
+	color: white;
+}
+.newsletter .newsletter-title h3{
+	font-weight: bold;
+}
+.newsletter .newsletter-title h3 span{
+	color: #3AB54A;
+}
+.newsletter-text{
+	margin-bottom: 20px;
+}
+
+.newsletter .newsletter-form input{
+	height: 40px;
+	padding: 0 20px;
+}
+.newsletter .newsletter-form button{
+	background-color: #3ab54a;
+	height: 40px;
+	padding: 0 20px;
+	border: none;
+	color: white;
+}
+
+
+
+.review{
+	background-image:;
+	background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(https://atgbcentral.com/data/out/184/5611637-home-wallpaper.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 50px 0;
+	color: white;
+}
+.review-slide{
+	max-width: 700px;
+	margin: 0 auto;
+}
+	.review-box{
+		margin-bottom: 20px;
+	}
+	.review-box .review-avartar{
+		margin-right: 10px;
+	}
+	.review-box .review-avartar img{
+		height: 100px;
+		width: 100px;
+	}
+	.review-box .review-info{
+		text-align: left;
+	}
+	.review-box .review-info h4{
+
+    text-transform: uppercase;
+		font-weight: bold;
+		color: white;
+	}
+
+
+.news-box-item{
+	position: relative;
+}
+.news-content{
+	padding: 10px;
+	background: rgba(0,0,0,0.8);
+	position: absolute;
+	top: 0;
+	width: 100%;
+	color: white;
+	height: 100%;
+    transform: translateY(80%);
+    transition: all 0.3s linear;
+}
+
+.news-box-item:hover .news-content{
+    transform: translateY(0);
+    transition: all 0.3s linear;
+}
+
+.news-content-title a{
+
+	color: white;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-weight: bold;
+    display: block;
+}
+.news-content-title{
+	margin-bottom: 20px;
+	border-bottom: 2px solid white;
+}
+.news-content-text p{
+}
+.news-content-text p{
+	max-height: 140px;
+	margin-bottom: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.news-content-text button{
+	background: white;
+	color: black;
+	border: none;
+	padding: 10px;
 }
