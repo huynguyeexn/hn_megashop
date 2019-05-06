@@ -612,7 +612,7 @@
 					<div class="product-box">
 						<div class="product-box-title d-flex justify-content-between">
 							<h4>NỘI THẤT PHÒNG KHÁCH</h4>
-							<div class="product-box-title-nav">
+							<div class="product-box-title-nav d-none d-md-block">
 								<ul>
 									<li class="active"><a href="">Bàn ghế gỗ</a></li>
 									<li><a href="">Sofa phòng khách</a></li>
@@ -865,7 +865,7 @@
 					<div class="product-box">
 						<div class="product-box-title d-flex justify-content-between">
 							<h4>NỘI THẤT PHÒNG NGỦ</h4>
-							<div class="product-box-title-nav">
+							<div class="product-box-title-nav d-none d-md-block">
 								<ul>
 									<li class="active"><a href="">Bàn ghế gỗ</a></li>
 									<li><a href="">Sofa phòng khách</a></li>
@@ -1118,7 +1118,7 @@
 					<div class="product-box">
 						<div class="product-box-title d-flex justify-content-between">
 							<h4>NỘI THẤT PHÒNG KHÁCH</h4>
-							<div class="product-box-title-nav">
+							<div class="product-box-title-nav d-none d-md-block">
 								<ul>
 									<li class="active"><a href="">Bàn ghế gỗ</a></li>
 									<li><a href="">Sofa phòng khách</a></li>
@@ -1371,7 +1371,7 @@
 					<div class="product-box">
 						<div class="product-box-title d-flex justify-content-between">
 							<h4>NỘI THẤT PHÒNG NGỦ</h4>
-							<div class="product-box-title-nav">
+							<div class="product-box-title-nav d-none d-md-block">
 								<ul>
 									<li class="active"><a href="">Bàn ghế gỗ</a></li>
 									<li><a href="">Sofa phòng khách</a></li>
@@ -1961,7 +1961,52 @@
 							<h4>TIN MỚI</h4>
 						</div>
 						<div class="product-box-slide">
-							<div class="owl-carousel product-carousel owl-theme">
+							<div class="owl-carousel news-carousel owl-theme">
+								<div class="news-box-item">
+									<div class="news-image">
+										<img src="https://i.pinimg.com/originals/ce/c6/34/cec6345daeb04f445cb58275c1703745.jpg" alt="">
+									</div>
+									<div class="news-content">
+										<div class="news-content-title">
+											<h6><a href="/nguoi-dung-chuong-noi-that-sach-chuan-chau-au" title="Người dùng chuộng nội thất sạch, chuẩn châu Âu">Người dùng chuộng nội thất sạch, chuẩn châu Âu</a></h6>
+										</div>
+										<div class="news-content-text">
+											<p>Người dùng chuộng nội thất sạch, chuẩn châu Âu
+											Nội thất chuẩn châu Âu là một khái niệm được nhắc đến nhiều trong thời gian gần đây Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias repellat quasi, ea maxime explicabo deleniti suscipit, totam sed officia ex illum nobis dolores consequuntur dolorem repellendus quisquam voluptatem sapiente illo?,...</p>
+											<button><a href="">Xem thêm</a></button>
+										</div>
+									</div>
+								</div>
+								<div class="news-box-item">
+									<div class="news-image">
+										<img src="https://i.pinimg.com/originals/ce/c6/34/cec6345daeb04f445cb58275c1703745.jpg" alt="">
+									</div>
+									<div class="news-content">
+										<div class="news-content-title">
+											<h6><a href="/nguoi-dung-chuong-noi-that-sach-chuan-chau-au" title="Người dùng chuộng nội thất sạch, chuẩn châu Âu">Người dùng chuộng nội thất sạch, chuẩn châu Âu</a></h6>
+										</div>
+										<div class="news-content-text">
+											<p>Người dùng chuộng nội thất sạch, chuẩn châu Âu
+											Nội thất chuẩn châu Âu là một khái niệm được nhắc đến nhiều trong thời gian gần đây Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias repellat quasi, ea maxime explicabo deleniti suscipit, totam sed officia ex illum nobis dolores consequuntur dolorem repellendus quisquam voluptatem sapiente illo?,...</p>
+											<button><a href="">Xem thêm</a></button>
+										</div>
+									</div>
+								</div>
+								<div class="news-box-item">
+									<div class="news-image">
+										<img src="https://i.pinimg.com/originals/ce/c6/34/cec6345daeb04f445cb58275c1703745.jpg" alt="">
+									</div>
+									<div class="news-content">
+										<div class="news-content-title">
+											<h6><a href="/nguoi-dung-chuong-noi-that-sach-chuan-chau-au" title="Người dùng chuộng nội thất sạch, chuẩn châu Âu">Người dùng chuộng nội thất sạch, chuẩn châu Âu</a></h6>
+										</div>
+										<div class="news-content-text">
+											<p>Người dùng chuộng nội thất sạch, chuẩn châu Âu
+											Nội thất chuẩn châu Âu là một khái niệm được nhắc đến nhiều trong thời gian gần đây Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias repellat quasi, ea maxime explicabo deleniti suscipit, totam sed officia ex illum nobis dolores consequuntur dolorem repellendus quisquam voluptatem sapiente illo?,...</p>
+											<button><a href="">Xem thêm</a></button>
+										</div>
+									</div>
+								</div>
 								<div class="news-box-item">
 									<div class="news-image">
 										<img src="https://i.pinimg.com/originals/ce/c6/34/cec6345daeb04f445cb58275c1703745.jpg" alt="">
@@ -1984,7 +2029,87 @@
 			</div>
 		</div>
 	</section>
-	<section class="hn-section-12"></section>
+	<section class="hn-section-12">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="product-box">
+						<div class="product-box-title d-flex justify-content-between">
+							<h4>ĐỐI TÁC</h4>
+						</div>
+						<div class="product-box-slide">
+							<div class="owl-carousel partner-carousel owl-theme">
+								<div class="partner">
+									<img src="https://dummyimage.com/175x70/333333/ffffff/" alt="">
+								</div>
+								<div class="partner">
+									<img src="https://dummyimage.com/175x70/333333/ffffff/" alt="">
+								</div>
+								<div class="partner">
+									<img src="https://dummyimage.com/175x70/333333/ffffff/" alt="">
+								</div>
+								<div class="partner">
+									<img src="https://dummyimage.com/175x70/333333/ffffff/" alt="">
+								</div>
+								<div class="partner">
+									<img src="https://dummyimage.com/175x70/333333/ffffff/" alt="">
+								</div>
+								<div class="partner">
+									<img src="https://dummyimage.com/175x70/333333/ffffff/" alt="">
+								</div>
+								<div class="partner">
+									<img src="https://dummyimage.com/175x70/333333/ffffff/" alt="">
+								</div>
+								<div class="partner">
+									<img src="https://dummyimage.com/175x70/333333/ffffff/" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="hn-section-13">
+		<div class="big-map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7849.546677299947!2d106.36!3d10.360000000000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1557155736666!5m2!1svi!2s" frameborder="0" style="border:0; width: 100%; height: 80vh;" allowfullscreen></iframe>
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="map-form">
+							<div class="map-form-title" style="background: url(http://bizweb.dktcdn.net/100/109/381/themes/669077/assets/footer_map_icon.png?1555408511695) no-repeat 0% 4px;">
+								<h4>MEGASHOP</h4>
+								<p>Nội thất hiện đại</p>
+							</div>
+							<div class="map-form-content">
+								<div class="map-form-item d-block d-sm-flex justify-content-start">
+									<div class="map-form-icon d-sm-block">
+										<i class="fas fa-map-marker d-sm-block"></i>
+									</div>
+									<p>Phòng 214, Chung cư B3, Phường Quan Hoa, Cầu Giấy, Hà Nội</p>
+								</div>
+								<div class="map-form-item d-block d-sm-flex  justify-content-start">
+									<div class="map-form-icon d-sm-block">
+										<i class="fas fa-envelope"></i>
+									</div>
+									<p>songvangvietnam@gmail.com</p>
+								</div>
+								<div class="map-form-item d-block d-sm-flex  justify-content-start">
+									<div class="map-form-icon d-sm-block">
+										<i class="fas fa-mobile"></i>
+									</div>
+									<p>0902068068</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="hn-section-13">
+		
+	</section>
 	<footer>
 
 	</footer>
@@ -2028,13 +2153,65 @@
 	};
 </script> -->
 <script>
+	$('.partner-carousel').owlCarousel({
+		loop:false,
+		margin:10,
+		responsiveClass:true,
+		responsive:{
+			0:{
+				items:1,
+				nav:false
+			},
+			360:{
+				items:2,
+				nav:false
+			},
+			760:{
+				items:3,
+				nav:true
+			},
+			1000:{
+				items:5,
+				nav:true
+			},
+			1200:{
+				items:6,
+				nav:true,
+				loop:false
+			}
+		}
+	})
+	$('.news-carousel').owlCarousel({
+		loop:false,
+		margin:10,
+		responsiveClass:true,
+		responsive:{
+			0:{
+				items:1,
+				nav:false
+			},
+			480:{
+				items:2,
+				nav:true
+			},
+			768:{
+				items:3,
+				nav:true
+			},
+			1024:{
+				items:4,
+				nav:true,
+				loop:false
+			}
+		}
+	})
 	$('#review-carousel').owlCarousel({
-		loop:true,
+		loop:false,
 		margin:0,
 		items:1
 	})
 	$('.owl-carousel').owlCarousel({
-		loop:true,
+		loop:false,
 		margin:10,
 		responsiveClass:true,
 		responsive:{
@@ -2053,7 +2230,7 @@
 			1024:{
 				items:4,
 				nav:true,
-				loop:true
+				loop:false
 			}
 		}
 	})

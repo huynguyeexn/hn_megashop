@@ -141,12 +141,17 @@ p{
 [class*="hn-section-"] {
 	margin-bottom: 20px;
 }
+.hn-section-2 .banner {
+	text-align: center;
+}
 .hn-section-2 .banner img{
 	max-width: 100%;
 	height: auto;
+	margin-bottom: 20px;
 }
 .side-bar{
 	background-color: #ffffff;
+	margin-bottom: 20px;
 }
 .side-bar .side-bar-title{
 	font-weight: 700;
@@ -438,4 +443,69 @@ p{
 	color: black;
 	border: none;
 	padding: 10px;
+}
+
+
+.partner{
+	height: 70px;
+	width: 175px;
+}
+
+.big-map{
+	position: relative;
+}
+.big-map > .container{
+	position: absolute;
+	top: 0;
+}
+@media screen and (max-width: 600px) {
+  .big-map > .container{
+	position: unset;
+	width: 100%;
+}  
+.big-map  .map-form{
+	color: white;
+	margin-top: 0;
+	top: 0;
+	right: 0;
+	position: unset;
+	background-color: #3AB54A;
+	padding: 20px;
+}
+
+}
+.map-form{
+	color: white;
+	margin-top: 100px;
+	top: 0;
+	right: 0;
+	position: absolute;
+	background-color: #3AB54A;
+	padding: 20px;
+}
+.map-form-title {
+	margin-bottom: 20px;
+	padding-left: 50px; margin-bottom: 20px;
+
+}
+.map-form-title h4{
+	font-weight: bold;
+	    font-style: italic;
+	
+}
+.map-form-item {
+	margin-bottom: 20px;
+}
+.map-form-item p {
+	line-height: 40px;
+}
+.map-form-content .map-form-icon{
+	margin-right: 10px;
+	height: 45px;
+	width: 45px;
+	text-align: center;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.5);
 }
