@@ -25,8 +25,18 @@ input{
 p{
 	margin: 0;
 }
-
-
+img{
+	max-width: 100%; 
+ 	height: auto;
+}
+.btn-primary,.btn-primary:not(:disabled):not(.disabled):active,.btn-primary:active,.btn-primary:focus{
+	background-color: #3ab54a;
+	border: none;
+}
+.btn-primary:hover{
+	background-color: #6EB477;
+	border: none;
+}
 
 .hn-top-header{
 	font-size: 0.8rem;
@@ -295,6 +305,7 @@ p{
 
 
 .hn-side-bar{
+	border: 1px solid rgba(0,0,0,0.1);
 	background-color: #ffffff;
 	margin-bottom: 20px;
 }
@@ -312,41 +323,26 @@ p{
 .hn-side-bar .side-bar-list{
 	padding:10px;
 }
-.hn-side-bar .side-bar-list ul li{
-	padding: 5px 10px;
+
+.side-bar-item{
 	position: relative;
+	padding: 10px 0;
 }
-.hn-side-bar .side-bar-list ul li a{
-	color: #575454;
-	font-weight: 500;
-}
-.hn-side-bar .side-bar-list ul li i{
+.side-bar-item .dropdown-toggle {
 	position: absolute;
-	right: 5%;
+    right: 0;
+    padding: 0;
+
 }
-
-.hn-side-bar .side-bar-list ul li:hover>a{
-	    color: #2D7D38;
+.side-bar-item .dropdown-toggle:focus{
+	box-shadow: none;
 }
-
-.hn-side-bar .side-bar-list ul li:hover >ul {
-	    display: block;
+.side-bar-item .dropdown-menu{
+	border: none;
+	float: unset !important;
+	position: unset !important;
+	transform: unset !important;
 }
-.hn-side-bar .side-bar-list ul li ul {
-    position: absolute;
-    width: 100%;
-    left: 100%;
-    background: #fff;
-    padding: 10px;
-    top: -10px;
-    border: 1px solid #ccc;
-    z-index: 999;
-    display: none;
-}
-
-
-
-
 
 
 
@@ -401,12 +397,12 @@ p{
 	color: #3ab54a;
 }
 .hn-product-item{
-	height: 320px;
 	position: relative;
 	margin-bottom: 20px;
 	background-color: #ffffff;
 	padding: 15px;
 	transition: all 0.5s;
+	border: 1px solid rgba(0,0,0,0.1);
 }
 .hn-button-wrap{
 	display: flex;
@@ -477,7 +473,7 @@ p{
 
 
 .hn-newsletter{
-	background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(http://adastraerrans.com/wp-content/uploads/2018/10/perky-colours-shaped-s-abc-wallpaper-full-hd-design-home-interior-kitchen-design.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(hn_images/huunhan-newsletter-1.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	padding: 50px 0;
@@ -509,7 +505,7 @@ p{
 
 .hn-review{
 	background-image:;
-	background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(https://atgbcentral.com/data/out/184/5611637-home-wallpaper.jpg);
+	background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(hn_images/huunhan-newsletter-2.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	padding: 50px 0;
@@ -760,4 +756,386 @@ footer a{
 .hn-bottom-footer a{
 	font-weight: bold;
 	color: white;
+}
+
+
+.breadcrumbs ul{
+	padding: 10px 0;
+}
+.breadcrumbs ul li{
+	font-weight: bold;
+	display: inline-block;
+}
+.breadcrumbs ul li i{
+	font-size: 0.8rem;
+}
+.breadcrumbs ul li span{
+	color: #3ab54a;
+}
+
+
+.page{
+	margin: 20px 0;
+}
+.page-title h4{
+	font-weight: bold;
+}
+.page-content h1,.page-content h2,.page-content h3,.page-content h4,.page-content h5,.page-content h6{
+	margin-top: 20px;
+	font-weight: bold;
+}
+.page-content p{
+	margin: 10px 0;
+	font-weight: normal;
+}
+
+
+
+
+
+
+.hn-sort-by{
+	margin-bottom: 20px;
+}
+.hn-sort-by select{
+	background-color: white;
+	border: 1px solid rgba(0,0,0,0.1);
+	width: 200px;
+	padding: 5px;
+}
+
+
+.pagination{
+    justify-content: center;
+	margin: 20px 0;
+}
+.pagination ul li{
+	display: inline-block;
+}
+.pagination ul li a{
+	border: 1px solid rgba(0,0,0,0.1);
+	width: 40px;
+	height: 40px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagination .active{
+	background-color: #3ab54a;
+    border-color: #3ab54a;
+    color: white;
+}
+.pagination ul li:first-child a{
+	border-radius: 5px 0 0 5px;
+}
+.pagination ul li:last-child a{
+	border-radius: 0 5px 5px 0;
+}
+
+.side-filter{
+	margin-bottom: 20px;
+}
+.filter-title{
+	font-weight: bold;
+}
+.filter-price{
+	border: 1px solid rgba(0,0,0,0.1);
+	padding: 5px;
+	width: 100%;
+	height: 150px;
+	overflow: scroll;
+}
+.filter-price p{
+	margin-bottom: 10px;
+}
+
+
+.product .product-name,
+.product .inventory,
+.product .price-box,
+.product .information,
+.product .description,
+.product .product-form{
+	margin-bottom: 10px;
+}
+
+.product .product-name{
+	font-weight: bold;
+}
+.product .inventory span{
+	background-color: #3AB54A;
+	padding: 10px;
+	color: white;
+}
+.product .price-box .special-price{
+	font-size: 2rem;
+	font-weight: bold;
+	color: #3AB54A;
+}
+.product .price-box .old-price{
+	font-size: 1.5rem;
+	font-weight: bold;
+    color: #adadad;
+    text-decoration: line-through;
+
+}
+.product .information a{
+    color: #3AB54A;
+}
+.product .description h5{
+	font-weight: bold;
+}
+.product .product-form .heart{
+	color: #FF4F4F;
+}
+
+
+
+
+.color-select h5{
+	font-weight: bold;
+}
+.color {
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.color .black{
+	background-color: black;
+}
+.color .brown{
+	background-color: saddlebrown;
+}
+
+/* Hide the browser's default checkbox */
+.color input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.color:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.color input:checked ~ .checkmark {
+  background-color: #3AB54A;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.color input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.color .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+.quantity{
+	margin: 20px 0;
+}
+.quantity h5{
+	font-weight: bold;
+}
+.quantity input{
+	padding: 10px;
+	border: 1px solid rgba(0,0,0,0.1)
+}
+.quantity button{
+	padding: 10px;
+  background-color: #3AB54A;
+  color: white;
+  border: none;
+}
+
+
+.product-form .iwish{
+	background: none;
+	border: 0;
+}
+
+
+.contact{
+	margin: 10px 0;
+}
+.contact .phone-icon{
+	width: 50px;
+    height: 50px;
+    text-align: center;
+    color: #3ab54a;
+    border: 2px solid #3ab54a;
+    border-radius: 100%;
+    font-size: 25px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 10px;
+}
+.contact a{
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #FC3030;
+}
+
+
+
+
+.product-tab{
+	min-height: 200px;
+	border: 1px solid rgba(0,0,0,0.1);
+}
+.product-tab-nav ul li{
+	font-weight: bold;
+	display: inline-block;
+	padding: 10px 15px;
+	border-right: 1px solid rgba(0,0,0,0.1);
+}
+.product-tab-nav ul .active{
+	font-weight: bold;
+	color: #3AB54A;
+}
+.product-tab-nav ul{
+	border-bottom: 2px solid #3AB54A;
+}
+.product-tab-content{
+	padding: 10px;
+}
+
+.small-product{
+	margin-bottom: 15px;
+}
+.small-product .item-title{
+	font-weight: bold;
+}
+.small-product .item-price{
+	color: #3AB54A;
+	font-size: 0.8rem;
+}
+.small-product .item-price .old-price{
+	font-size: 0.8rem;
+    color: #adadad;
+    text-decoration: line-through;
+}
+
+.zoomWrapper{
+    height: auto !important;
+    width: 100% !important;
+}
+.zoomWrapper img{
+	position: unset !important;
+	max-width: 100% !important; 
+	height: auto !important;
+	margin-bottom: 10px;
+}
+#gallery_01 {
+	text-align: center;
+}
+#gallery_01 img{
+	margin: 0 10px 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.news{
+	margin-bottom: 30px;
+}
+.news .news-title{
+	font-weight: bold;
+	font-size: 1.3rem;
+}
+.news .news-author,
+.news .news-date,
+.news .news-comment
+{
+	display: inline-block;
+	font-size: 0.8rem;
+	font-weight: bold;
+}
+.news .news-author a,
+.news .news-date a,
+.news .news-comment a
+{
+	color: #3AB54A;
+}
+.news.news-content{
+}
+.news-thumb img{
+	max-height: 250px;
+	width: auto;
+}
+
+
+.contact-box{
+	margin-bottom: 30px;
+}
+.contact-box p>i{
+	position: absolute;
+	left: 0;
+}
+.contact-box p{
+	min-height: 30px;
+	align-content: center;
+    display: flex;
+    align-items: center;
+	position: relative;
+	padding-left: 30px;
+	margin-bottom: 10px;
+}
+
+
+.contact-form{
+	margin-bottom: 30px;
+}
+.contact-form label,
+.contact-form input,
+.contact-form textarea,
+.contact-form button{
+	margin-bottom: 10px;
 }

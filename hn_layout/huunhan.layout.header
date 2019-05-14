@@ -1,98 +1,326 @@
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <title>ACADEMY - Education online</title>
-      <link rel="icon" href="hn_images/huunhan-favicon.ico">
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <!-- BOOTSTRAP CSS -->
-      <link rel="stylesheet" href="hn_css/hn_bootstrap_css/bootstrap.min.css">
-      <!-- FONT AWESOME -->
-      <link rel="stylesheet" href="hn_font/hn_fontawesome/css/all.min.css">
-      <!-- STYLE CSS FILE -->
-      <link rel="stylesheet" href="huunhan.style.css">
-      <!-- fancybox css -->
-      <link rel="stylesheet" href="hn_css/jquery.fancybox.min.css" />
-   </head>
-   <body>
-   <!-- START HEADER -->
-         <div class="hn-header">
-            <!-- START TOP-HEADER -->
-            <div class="hn-top-header d-flex align-items-center">
-               <div class="container">
-                  <div class="row w-100 d-flex justify-content-between">
-                     <div class="hn-header-logo">
-                        <a href="huunhan.index.php">
-                           <img src="hn_images/huunhan-logo.png" alt="">
-                        </a>
-                     </div>
-                     <div class="hn-header-link text-right">
-                        <a href="huunhan.login.php">Đăng nhập</a> |
-                        <a href="huunhan.signup.php">Đăng ký</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <!-- END TOP-HEADER -->
+<header class="hn-header">
+	<div class="hn-top-header">
+		<div class="container">
+			<div class="row">
+				<div class="d-none d-sm-block col-sm-4 col-lg-8 col-xl-7  text-left">
+					<div class="row">
+						<div class="hn-header-phone col-12 col-lg-4 d-block">
+							<i class="fas fa-phone-volume"></i>
+							<span><strong>Tư vấn 24/7:</strong></span>
+							<span><a href="">0929292929</a></span>
+						</div>
+						<div class="hn-header-address col-12 col-lg-8 d-none d-lg-block">
+							<span><strong>Địa chỉ:</strong></span>
+							<span>Phòng 214, Chung cư B3, Phường Quan Hoa, Cầu Giấy, Hà Nội</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-8 col-lg-4 col-xl-5 text-right">
+					<a href="" class="d-none d-xl-inline">Danh sách mong muốn</a>
+					<a href="">Đăng nhập</a>
+					<a href="">Đăng ký</a>
+					<div class="hn-header-cart">
+						<a href="">
+							<i class="fas fa-shopping-cart"></i>
+							<span class="d-none d-sm-inline"> Giỏ hàng </span>
+							<span>(0)</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="hn-middle-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-6 col-lg-3">
+					<div class="hn-header-logo">
+						<a href="huunhan.index.php">
+						<img src="hn_images/huunhan-logo.png" alt="Logo">
+						</a>
+					</div>
+				</div>
+				<div class="d-none d-lg-inline col-12 col-lg-9">
+					<div class="row">
+						<div class="col-4">
+							<div class="hn-service-icon">
+								<i class="fas fa-user-tie"></i>
+							</div>
+							<div class="hn-service-content">
+								TƯ VẤN 24/7&thinsp;<span>MIỄN PHÍ</span>
+							</div>
+						</div>
+						<div class="col-4">
+							<div class="hn-service-icon">
+								<i class="fas fa-truck"></i>
+							</div>
+							<div class="hn-service-content">
+								VẬN CHUYỂN&thinsp;<span>MIỄN PHÍ</span>
+							</div>
+						</div>
+						<div class="col-4">
+							<div class="hn-service-icon">
+								<i class="fas fa-hand-holding-usd"></i>
+							</div>
+							<div class="hn-service-content">
+								NHẬN HÀNG&thinsp;<span>NHẬN TIỀN</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 d-inline d-lg-none">
+					<nav class="navbar navbar-light" style="justify-content: flex-end; color: black;">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="hn-nav-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 d-none d-lg-flex justify-content-between align-items-center">
+					<nav>
+						<ul>
+						   <li><a href="huunhan.index.php">Trang chủ</a></li><!-- 
+						--><li><a href="huunhan.gioithieu.php">Giới thiệu</a></li><!-- 
+						--><li class="hn-nav-drop">
+								<a href="huunhan.danhsach.php" >Sản phẩm
+									<i class="fas fa-chevron-down"></i>
+									<div class="hn-nav-submenu">
+										<div class="container">
+											<div class="row">
+												<div class="col-3">
+													<h5>Phòng khách</h5>
+													<nav>
+														<ul>
+															<li><a href="">Bàn ghế gỗ</a></li>
+															<li><a href="">Sofa phòng khách</a></li>
+															<li><a href="">Tủ để giày</a></li>
+															<li><a href="">Tủ rượu</a></li>
+															<li><a href="">Vách ngăn</a></li>
+														</ul>
+													</nav>
+												</div>
+												<div class="col-3">
+													<h5>Phòng khách</h5>
+													<nav>
+														<ul>
+															<li><a href="">Bàn ghế gỗ</a></li>
+															<li><a href="">Sofa phòng khách</a></li>
+															<li><a href="">Tủ để giày</a></li>
+															<li><a href="">Tủ rượu</a></li>
+															<li><a href="">Vách ngăn</a></li>
+														</ul>
+													</nav>
+												</div>
+												<div class="col-3">
+													<h5>Phòng khách</h5>
+													<nav>
+														<ul>
+															<li><a href="">Bàn ghế gỗ</a></li>
+															<li><a href="">Sofa phòng khách</a></li>
+															<li><a href="">Tủ để giày</a></li>
+															<li><a href="">Tủ rượu</a></li>
+															<li><a href="">Vách ngăn</a></li>
+														</ul>
+													</nav>
+												</div>
+												<div class="col-3">
+													<h5>Phòng khách</h5>
+													<nav>
+														<ul>
+															<li><a href="">Bàn ghế gỗ</a></li>
+															<li><a href="">Sofa phòng khách</a></li>
+															<li><a href="">Tủ để giày</a></li>
+															<li><a href="">Tủ rượu</a></li>
+															<li><a href="">Vách ngăn</a></li>
+														</ul>
+													</nav>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-3">
+													<h5>Phòng khách</h5>
+													<nav>
+														<ul>
+															<li><a href="">Bàn ghế gỗ</a></li>
+															<li><a href="">Sofa phòng khách</a></li>
+															<li><a href="">Tủ để giày</a></li>
+															<li><a href="">Tủ rượu</a></li>
+															<li><a href="">Vách ngăn</a></li>
+														</ul>
+													</nav>
+												</div>
+												<div class="col-3">
+													<h5>Phòng khách</h5>
+													<nav>
+														<ul>
+															<li><a href="">Bàn ghế gỗ</a></li>
+															<li><a href="">Sofa phòng khách</a></li>
+															<li><a href="">Tủ để giày</a></li>
+															<li><a href="">Tủ rượu</a></li>
+															<li><a href="">Vách ngăn</a></li>
+														</ul>
+													</nav>
+												</div>
+												<div class="col-3">
+													<h5>Phòng khách</h5>
+													<nav>
+														<ul>
+															<li><a href="">Bàn ghế gỗ</a></li>
+															<li><a href="">Sofa phòng khách</a></li>
+															<li><a href="">Tủ để giày</a></li>
+															<li><a href="">Tủ rượu</a></li>
+															<li><a href="">Vách ngăn</a></li>
+														</ul>
+													</nav>
+												</div>
+												<div class="col-3">
+													<h5>Phòng khách</h5>
+													<nav>
+														<ul>
+															<li><a href="">Bàn ghế gỗ</a></li>
+															<li><a href="">Sofa phòng khách</a></li>
+															<li><a href="">Tủ để giày</a></li>
+															<li><a href="">Tủ rượu</a></li>
+															<li><a href="">Vách ngăn</a></li>
+														</ul>
+													</nav>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-3">
+													<h5>Phòng khách</h5>
+													<nav>
+														<ul>
+															<li><a href="">Bàn ghế gỗ</a></li>
+															<li><a href="">Sofa phòng khách</a></li>
+															<li><a href="">Tủ để giày</a></li>
+															<li><a href="">Tủ rượu</a></li>
+															<li><a href="">Vách ngăn</a></li>
+														</ul>
+													</nav>
+												</div>
+												<div class="col-3">
+													<h5>Phòng khách</h5>
+													<nav>
+														<ul>
+															<li><a href="">Bàn ghế gỗ</a></li>
+															<li><a href="">Sofa phòng khách</a></li>
+															<li><a href="">Tủ để giày</a></li>
+															<li><a href="">Tủ rượu</a></li>
+															<li><a href="">Vách ngăn</a></li>
+														</ul>
+													</nav>
+												</div>
+												<div class="col-3">
+													<h5>Phòng khách</h5>
+													<nav>
+														<ul>
+															<li><a href="">Bàn ghế gỗ</a></li>
+															<li><a href="">Sofa phòng khách</a></li>
+															<li><a href="">Tủ để giày</a></li>
+															<li><a href="">Tủ rượu</a></li>
+															<li><a href="">Vách ngăn</a></li>
+														</ul>
+													</nav>
+												</div>
+												<div class="col-3">
+													<h5>Phòng khách</h5>
+													<nav>
+														<ul>
+															<li><a href="">Bàn ghế gỗ</a></li>
+															<li><a href="">Sofa phòng khách</a></li>
+															<li><a href="">Tủ để giày</a></li>
+															<li><a href="">Tủ rượu</a></li>
+															<li><a href="">Vách ngăn</a></li>
+														</ul>
+													</nav>
+												</div>
+											</div>
+										</div>
+									</div>
+								</a>
+							</li><!-- 
+						--><li><a href="huunhan.thietke.php">Thiết kế nội thất</a></li><!-- 
+						--><li><a href="huunhan.tintuc.php">Tin tức</a></li><!-- 
+						--><li><a href="huunhan.lienhe.php">Liên hệ</a></li>
+						</ul>
+					</nav>
+					<div class="hn-nav-search">
+						<form class="search">
+							<input class="" type="search" placeholder="Search">
+							<button class="btn" type="submit"><i class="fas fa-search"></i></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="hn-nav-mobile d-block d-lg-none">
+		<div class="container">
+		<div class="collapse" id="navbarToggleExternalContent">
+			<nav>
+				<ul>
+					<li><a href="">Trang chủ</a></li>
+					<li><a href="">Giới thiệu</a></li>
+					<li>
+						<div class="dropdown">
+							<a href="">Sản phẩm</a>
+							<a class="dropdown-toggle" data-toggle="dropdown"></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Phòng khách</a>
+									<a class="drop"></a>
+									<ul class="dropdown-menu">
+										<li><a href="#">Bàn ghế gỗ</a></li>
+										<li><a href="#">Sofa phòng khách</a></li>
+										<li><a href="#">Tủ để giày</a></li>
+										<li><a href="#">Tủ rượu</a></li>
+										<li><a href="#">Vách ngăn</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="#">Phòng khách</a>
+									<a class="drop"></a>
+									<ul class="dropdown-menu">
+										<li><a href="#">Bàn ghế gỗ</a></li>
+										<li><a href="#">Sofa phòng khách</a></li>
+										<li><a href="#">Tủ để giày</a></li>
+										<li><a href="#">Tủ rượu</a></li>
+										<li><a href="#">Vách ngăn</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="#">Phòng khách</a>
+									<a class="drop"></a>
+									<ul class="dropdown-menu">
+										<li><a href="#">Bàn ghế gỗ</a></li>
+										<li><a href="#">Sofa phòng khách</a></li>
+										<li><a href="#">Tủ để giày</a></li>
+										<li><a href="#">Tủ rượu</a></li>
+										<li><a href="#">Vách ngăn</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="">Thiết kế nội thất</a></li>
+					<li><a href="">Tin tức</a></li>
+					<li><a href="">Liên hệ</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="hn-nav-search w-100">
+			<form class="search d-flex">
+				<input class="flex-grow-1" type="search" placeholder="Search">
+				<button class="btn" type="submit"><i class="fas fa-search"></i></button>
+			</form>
+		</div>
+		</div>
 
-            <!-- START MENU LEFT -->
-            <div class="hn-navbar-collapse navbar-collapse collapse d-lg-none" style=""id="navbarToggleExternalContent">
-               <!-- CLOSE MENU -->
-               <button onclick="hide_navbar()">X</button>
-               <ul>
-                  <li><a href="huunhan.index.php">TRANG CHỦ</a></li>
-                  <li class="nav-item dropdown">
-                     <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                     HỌC TẬP
-                     </a>
-                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
-                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
-                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
-                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
-                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
-                     </div>
-                  </li>
-                  <li><a href="huunhan.courses.php">KHÓA HỌC</a></li>
-                  <li><a href="huunhan.contact.php">HỖ TRỢ</a></li>
-                  <li><a href="huunhan.about.php">VỀ CHÚNG TÔI</a></li>
-               </ul>
-            </div>
-            <!-- END MENU LEFT -->
-            <div class="hn-navbar" id="js-sticky">
-               <div class="container">
-                  <div class="hn-header-navbar d-flex align-items-center justify-content-between">
-                     <nav class="hn-menu">
-                        <!-- MENU LEFT TOGGLER -->
-                        <button class="navbar-toggler d-block d-lg-none" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fas fa-bars"></i>
-                        </button>
-                        <ul class="d-none d-lg-block">
-                           <li><a href="huunhan.index.php">TRANG CHỦ</a></li>
-                  <li class="nav-item dropdown">
-                     <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                     HỌC TẬP
-                     </a>
-                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
-                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
-                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
-                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
-                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
-                     </div>
-                  </li>
-                  <li><a href="huunhan.courses.php">KHÓA HỌC</a></li>
-                  <li><a href="huunhan.contact.php">HỖ TRỢ</a></li>
-                  <li><a href="huunhan.about.php">VỀ CHÚNG TÔI</a></li>
-                        </ul>
-                     </nav>
-                     <div class="hn-header-contact d-flex align-items-center">
-                        <i class="fas fa-phone icon-telephone" style="margin: 5px 20px;"></i>
-                        <span class="d-none d-md-block">(+84) 929 77 88 99</span>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- END HEADER -->
+	</div>
+</header>
