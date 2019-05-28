@@ -20,7 +20,7 @@
 							<ul>
 							<li><a href="huunhan.index.php">Trang chủ</a></li><!-- 
 						 --><li><a href="huunhan.gioithieu.php">Giới thiệu</a></li><!-- 
-						 --><li><a href="huunhan.sampham.php">Sản phẩm</a></li><!-- 
+						 --><li><a href="huunhan.sanpham.php">Sản phẩm</a></li><!-- 
 						 --><li><a href="huunhan.thietke.php">Thiết kế nội thất</a></li><!-- 
 						 --><li><a href="huunhan.tintuc.php">Tin tức</a></li><!-- 
 						--><li><a href="huunhan.lienhe.php">Liên hệ</a></li>

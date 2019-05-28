@@ -23,17 +23,17 @@
 			</ul>
 		</div>
 	</section>
-	<section class="page">
+	<section class="hn-page">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3">
 					<?php include_once 'hn_layout/huunhan.layout.side-bar' ?>
 				</div>
 				<div class="col-lg-9">
-					<div class="page-title">
+					<div class="hn-page-title">
 						<h4>Tin tức</h4>
 					</div>
-					<div class="page-content">
+					<div class="hn-page-content">
 						<div class="news">
 							<div class="row">
 								<div class="col-md-4">

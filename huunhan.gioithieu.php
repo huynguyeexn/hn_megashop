@@ -23,17 +23,17 @@
 			</ul>
 		</div>
 	</section>
-	<section class="page">
+	<section class="hn-page">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3">
 					<?php include_once 'hn_layout/huunhan.layout.side-bar' ?>
 				</div>
 				<div class="col-lg-9">
-					<div class="page-title">
+					<div class="hn-page-title">
 						<h4>Giới thiệu</h4>
 					</div>
-					<div class="page-content">
+					<div class="hn-page-content">
 							<h4>"Luôn đem đến giá trị đích thực cho ngôi nhà của bạn"</h4>
 							<p>Là phương châm hoạt động của Megashop - đến với chúng tôi, bạn sẽ cảm thấy thật sự hài lòng khi được phục vụ bởi đội ngũ Kiến trúc sư - Họa sĩ xuất sắc giàu kinh nghiệm trong lĩnh vực tư vấn thiết kế kiến trúc và nội thất. Sao Việt chuyên thiết kế và thi công nội ngoại thất: thiết kế nội thất chung cư, biệt thự, nhà lô phố, nhà hàng, khách sạn, nội thất văn phòng, showroom, quán Cafe,...Với các không gian được thiết kế tuân thủ nghiêm ngặt theo quy luật phong thủy...</p>
 							<p><img src="//bizweb.dktcdn.net/100/103/391/files/khach1.jpg?v=1468477415312"></p>

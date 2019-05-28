@@ -23,17 +23,17 @@
 			</ul>
 		</div>
 	</section>
-	<section class="page">
+	<section class="hn-page">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3">
 					<?php include_once 'hn_layout/huunhan.layout.side-bar' ?>
 				</div>
 				<div class="col-lg-9">
-					<div class="page-title">
+					<div class="hn-page-title">
 						<h4>Thiết kế nội thất</h4>
 					</div>
-					<div class="page-content">
+					<div class="hn-page-content">
 						
 							<p><strong>Nhà vườn, chung cư, biệt thự hay nhà phố… muốn đẹp, sang trọng thì đòi hỏi từ khâu thiết kế sao cho phù hợp và hoản chính nhất. Do đó, phần trọng tâm và cũng được đánh giá là yếu tố quan trọng đó chính là việc thiết kế nội thất hiện đại tạo nên tính đặc thù riêng cho từng ngôi nhà theo sở thích, thói quen sống cũng như nhu cầu mục đích sử dụng của từng ngôi nhà. Kientrucla. com xin tư vấn thiết kế nội thất cho các bạn như sau:</strong></p>
 

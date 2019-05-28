@@ -24,7 +24,7 @@
 			</ul>
 		</div>
 	</section>
-	<section class="page">
+	<section class="hn-page">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-5">

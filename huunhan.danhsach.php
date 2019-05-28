@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-	<?php include_once 'hn_layout/huunhan.layout.meta' ?>
+	<?php include_once 'hn_layout/huunhan.layout.meta'?>
 </head>
 <body style="background-color: #ffffff">
 	<!-- HEADER -->
@@ -23,7 +23,7 @@
 			</ul>
 		</div>
 	</section>
-	<section class="page">
+	<section class="hn-page">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3">

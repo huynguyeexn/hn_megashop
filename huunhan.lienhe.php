@@ -23,11 +23,11 @@
 			</ul>
 		</div>
 	</section>
-	<section class="page">
+	<section class="hn-page">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-5">
-					<div class="page-title">
+					<div class="hn-page-title">
 						<h4>Liên hệ</h4>
 					</div>
 					<div class="contact-box">

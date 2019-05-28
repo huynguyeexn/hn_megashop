@@ -23,9 +23,9 @@
 			</ul>
 		</div>
 	</section>
-	<section class="page">
+	<section class="hn-page">
 		<div class="container">
-			<div class="page-title">
+			<div class="hn-page-title">
 				<h4>Đăng nhập</h4>
 			</div>
 			<div class="row">
