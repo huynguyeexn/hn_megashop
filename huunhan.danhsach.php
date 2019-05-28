@@ -60,8 +60,8 @@
 					<div class="hn-sort-bar">
 						<div class="row">
 							<div class="col-md-6">
-								<a href=""><i class="fas fa-th"></i></a>
-								<a href=""><i class="fas fa-th-list"></i></a>
+								<i class="grid-menu fas fa-th"></i>
+								<i class="list-menu fas fa-th-list"></i>
 							</div>
 							<div class="col-md-6 text-right">
 								<div class="hn-sort-by">
@@ -79,7 +79,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="row">
+					<div class="hn-grid row">
 						<div class="col-12 col-sm-6 col-md-4 col-lg-4">
 							<div class="product-box-item">
 								<div class="hn-product-item text-center ">
@@ -95,7 +95,7 @@
 										<span>-90%</span>
 									</div>
 									<div class="item-thumb">
-										<img src="https://dummyimage.com/240x160/333333/ffffff/ alt="">
+										<img src="https://dummyimage.com/240x160/333333/ffffff/" alt="">
 									</div>
 									<div class="item-title">
 										<a href="huunhan.sanpham.php">Tủ quần áo hiện đại</a>
@@ -136,7 +136,7 @@
 										<span>-90%</span>
 									</div>
 									<div class="item-thumb">
-										<img src="https://dummyimage.com/240x160/333333/ffffff/ alt="">
+										<img src="https://dummyimage.com/240x160/333333/ffffff/" alt="">
 									</div>
 									<div class="item-title">
 										<a href="huunhan.sanpham.php">Tủ quần áo hiện đại</a>
@@ -177,7 +177,7 @@
 										<span>-90%</span>
 									</div>
 									<div class="item-thumb">
-										<img src="https://dummyimage.com/240x160/333333/ffffff/ alt="">
+										<img src="https://dummyimage.com/240x160/333333/ffffff/" alt="">
 									</div>
 									<div class="item-title">
 										<a href="huunhan.sanpham.php">Tủ quần áo hiện đại</a>
@@ -218,7 +218,7 @@
 										<span>-90%</span>
 									</div>
 									<div class="item-thumb">
-										<img src="https://dummyimage.com/240x160/333333/ffffff/ alt="">
+										<img src="https://dummyimage.com/240x160/333333/ffffff/" alt="">
 									</div>
 									<div class="item-title">
 										<a href="huunhan.sanpham.php">Tủ quần áo hiện đại</a>
@@ -259,7 +259,7 @@
 										<span>-90%</span>
 									</div>
 									<div class="item-thumb">
-										<img src="https://dummyimage.com/240x160/333333/ffffff/ alt="">
+										<img src="https://dummyimage.com/240x160/333333/ffffff/" alt="">
 									</div>
 									<div class="item-title">
 										<a href="huunhan.sanpham.php">Tủ quần áo hiện đại</a>
@@ -300,7 +300,7 @@
 										<span>-90%</span>
 									</div>
 									<div class="item-thumb">
-										<img src="https://dummyimage.com/240x160/333333/ffffff/ alt="">
+										<img src="https://dummyimage.com/240x160/333333/ffffff/" alt="">
 									</div>
 									<div class="item-title">
 										<a href="huunhan.sanpham.php">Tủ quần áo hiện đại</a>
@@ -341,7 +341,7 @@
 										<span>-90%</span>
 									</div>
 									<div class="item-thumb">
-										<img src="https://dummyimage.com/240x160/333333/ffffff/ alt="">
+										<img src="https://dummyimage.com/240x160/333333/ffffff/" alt="">
 									</div>
 									<div class="item-title">
 										<a href="huunhan.sanpham.php">Tủ quần áo hiện đại</a>
@@ -382,7 +382,7 @@
 										<span>-90%</span>
 									</div>
 									<div class="item-thumb">
-										<img src="https://dummyimage.com/240x160/333333/ffffff/ alt="">
+										<img src="https://dummyimage.com/240x160/333333/ffffff/" alt="">
 									</div>
 									<div class="item-title">
 										<a href="huunhan.sanpham.php">Tủ quần áo hiện đại</a>
@@ -423,7 +423,7 @@
 										<span>-90%</span>
 									</div>
 									<div class="item-thumb">
-										<img src="https://dummyimage.com/240x160/333333/ffffff/ alt="">
+										<img src="https://dummyimage.com/240x160/333333/ffffff/" alt="">
 									</div>
 									<div class="item-title">
 										<a href="huunhan.sanpham.php">Tủ quần áo hiện đại</a>
@@ -444,6 +444,223 @@
 											<span>
 												1.900.000₫			
 											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="d-none hn-list row text-center">
+						<div class="col-12">
+							<div class="row">
+								<div class="col-12 col-md-5">
+									
+									<div class="item-thumb">
+										<div class="sale">
+											<span>-90%</span>
+										</div>
+										<img src="https://dummyimage.com/240x160/333333/ffffff/" alt="">
+									</div>
+								</div>
+								<div class="col-12 col-md-7">
+									<div class="item-title">
+										<a href="huunhan.sanpham.php">Tủ quần áo hiện đại</a>
+									</div>
+									<div class="item-star">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+										<i class="far fa-star"></i>
+									</div>
+									<div class="item-price">		
+										<div class="special-price">
+											<span>1.800.000₫</span>
+										</div>
+										<div class="old-price">
+											<span>
+												1.900.000₫			
+											</span>
+										</div>
+									</div>
+									<div class="hn-button-wrap w-100">
+										<div class="hn-product-button">
+											<span>Mua hàng</span>
+										</div>
+										<div class="hn-product-button">
+											<span>Xem thêm</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12">
+							<div class="row">
+								<div class="col-12 col-md-5">
+									
+									<div class="item-thumb">
+										<div class="sale">
+											<span>-90%</span>
+										</div>
+										<img src="https://dummyimage.com/240x160/333333/ffffff/" alt="">
+									</div>
+								</div>
+								<div class="col-12 col-md-7">
+									<div class="item-title">
+										<a href="huunhan.sanpham.php">Tủ quần áo hiện đại</a>
+									</div>
+									<div class="item-star">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+										<i class="far fa-star"></i>
+									</div>
+									<div class="item-price">		
+										<div class="special-price">
+											<span>1.800.000₫</span>
+										</div>
+										<div class="old-price">
+											<span>
+												1.900.000₫			
+											</span>
+										</div>
+									</div>
+									<div class="hn-button-wrap w-100">
+										<div class="hn-product-button">
+											<span>Mua hàng</span>
+										</div>
+										<div class="hn-product-button">
+											<span>Xem thêm</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12">
+							<div class="row">
+								<div class="col-12 col-md-5">
+									
+									<div class="item-thumb">
+										<div class="sale">
+											<span>-90%</span>
+										</div>
+										<img src="https://dummyimage.com/240x160/333333/ffffff/" alt="">
+									</div>
+								</div>
+								<div class="col-12 col-md-7">
+									<div class="item-title">
+										<a href="huunhan.sanpham.php">Tủ quần áo hiện đại</a>
+									</div>
+									<div class="item-star">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+										<i class="far fa-star"></i>
+									</div>
+									<div class="item-price">		
+										<div class="special-price">
+											<span>1.800.000₫</span>
+										</div>
+										<div class="old-price">
+											<span>
+												1.900.000₫			
+											</span>
+										</div>
+									</div>
+									<div class="hn-button-wrap w-100">
+										<div class="hn-product-button">
+											<span>Mua hàng</span>
+										</div>
+										<div class="hn-product-button">
+											<span>Xem thêm</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12">
+							<div class="row">
+								<div class="col-12 col-md-5">
+									
+									<div class="item-thumb">
+										<div class="sale">
+											<span>-90%</span>
+										</div>
+										<img src="https://dummyimage.com/240x160/333333/ffffff/" alt="">
+									</div>
+								</div>
+								<div class="col-12 col-md-7">
+									<div class="item-title">
+										<a href="huunhan.sanpham.php">Tủ quần áo hiện đại</a>
+									</div>
+									<div class="item-star">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+										<i class="far fa-star"></i>
+									</div>
+									<div class="item-price">		
+										<div class="special-price">
+											<span>1.800.000₫</span>
+										</div>
+										<div class="old-price">
+											<span>
+												1.900.000₫			
+											</span>
+										</div>
+									</div>
+									<div class="hn-button-wrap w-100">
+										<div class="hn-product-button">
+											<span>Mua hàng</span>
+										</div>
+										<div class="hn-product-button">
+											<span>Xem thêm</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12">
+							<div class="row">
+								<div class="col-12 col-md-5">
+									
+									<div class="item-thumb">
+										<div class="sale">
+											<span>-90%</span>
+										</div>
+										<img src="https://dummyimage.com/240x160/333333/ffffff/" alt="">
+									</div>
+								</div>
+								<div class="col-12 col-md-7">
+									<div class="item-title">
+										<a href="huunhan.sanpham.php">Tủ quần áo hiện đại</a>
+									</div>
+									<div class="item-star">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+										<i class="far fa-star"></i>
+									</div>
+									<div class="item-price">		
+										<div class="special-price">
+											<span>1.800.000₫</span>
+										</div>
+										<div class="old-price">
+											<span>
+												1.900.000₫			
+											</span>
+										</div>
+									</div>
+									<div class="hn-button-wrap w-100">
+										<div class="hn-product-button">
+											<span>Mua hàng</span>
+										</div>
+										<div class="hn-product-button">
+											<span>Xem thêm</span>
 										</div>
 									</div>
 								</div>
@@ -523,6 +740,17 @@
 			$(this).next('ul').toggle();
 			e.stopPropagation();
 			e.preventDefault();
+		});
+	});
+
+	$(document).ready(function(){
+		$(".list-menu").click(function(){
+			$(".hn-grid").removeClass("d-flex").addClass("d-none");
+			$(".hn-list").removeClass("d-none").addClass("d-flex");
+		});
+		$(".grid-menu").click(function(){
+			$(".hn-list").removeClass("d-flex").addClass("d-none");
+			$(".hn-grid").removeClass("d-none").addClass("d-flex");
 		});
 	});
 </script>	

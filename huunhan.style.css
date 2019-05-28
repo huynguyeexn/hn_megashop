@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
 	font-family: 'Roboto', sans-serif;
 	margin: 0;
@@ -79,7 +82,30 @@ img{
 	text-decoration: none;
 	color: #A9FFB4;
 }
-
+.cart-hidden{
+	display: none;
+	text-align: left;
+	text-align: left;
+	position: absolute;
+	background-color: white;
+	z-index: 1000;
+	color: #3ab54a;
+	width: 350px;
+	right: 10px;
+	padding: 10px;
+	box-shadow: 0px 7px 10px -6px rgba(0,0,0,0.75);
+}
+.hn-header-cart:hover .cart-hidden{
+	display: block;
+}
+.cart-small-item img{
+	width: 80px;
+}
+.cart-small-item{
+	margin: 10px;
+	padding: 10px;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
 
 
 
@@ -470,6 +496,90 @@ img{
     display: inline-block;
     color: #adadad;
 }
+/*.hn-list .item-thumb{
+    position: relative;
+}
+.hn-list .sale{
+    height: 30px;
+    right: 0;
+    top: 0;
+    position: absolute;
+    background-color: #3AB54A;
+    width: 50px;
+}*/
+.hn-list .sale{
+	z-index: 1;
+	display: inline-block;
+	padding: 0 10px;
+    height: 30px;
+    text-align: center;
+    position: absolute;
+    background-color: #3AB54A;
+}
+.hn-list .sale span{
+    color: white;
+    line-height: 30px;
+}
+.hn-list .hn-button-wrap {
+    display: block;
+    position: inherit;
+    width: fit-content;
+    left: 0;
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+    transform: unset;
+    transition: unset;
+}
+
+.hn-list .hn-product-button:hover{
+	transition: background 0.5s;
+       background: #2D7D38;
+}
+.hn-list .hn-product-button{
+	display: inline-block;
+	cursor:pointer;
+   	background-color: #3AB54A;
+   	color: white;
+   	padding: 10px 5px;
+   	margin: 0 5px;
+}
+.hn-list > div{
+	margin-bottom: 10px;
+	border: 1px solid rgba(0,0,0,0.2);
+	padding: 20px;
+	border-radius: 5px;
+}
+.hn-list > div:hover{
+	transition: all 0.3s;
+	transform: scale(1.02);
+}
+.hn-list .item-star{
+	color: #FFD200;
+	font-size: 0.8rem;
+}
+.hn-list .item-price{
+	margin: 15px 0px;
+	color: #3AB54A;
+}
+.hn-list .item-price .special-price{
+	display: inline-block;
+}
+.hn-list .item-price .old-price{
+	display: inline-block;
+    color: #adadad;
+    text-decoration: line-through;
+}
+.hn-list{
+
+}
+
+
+
+
+
+
+
 
 
 .hn-newsletter{
@@ -659,7 +769,7 @@ text-transform: uppercase;
 }
 
 .hn-follow div{
-
+	
 	display: inline-block;
 }
 .hn-follow span{
@@ -668,6 +778,8 @@ text-transform: uppercase;
 }
 
 .hn-follow-icon div{
+
+	cursor:pointer;
 	text-align: center;
 	margin: 0 1px;
 	padding: 3px;
@@ -676,8 +788,8 @@ text-transform: uppercase;
 	background: black;
 	color: white;
 }
-.hn-hn-follow-icon .tw:hover{
-	background-color:#76BCF1 ;
+.hn-follow-icon .tw:hover{
+	background-color:#88C2EF ;
 }
 
 .hn-follow-icon .fb:hover{
@@ -1140,4 +1252,12 @@ footer a{
 .contact-form textarea,
 .contact-form button{
 	margin-bottom: 10px;
+}
+
+
+.table-thanhtoan{
+	text-align: center;
+}
+.table-thanhtoan img{
+	width: 50%;
 }

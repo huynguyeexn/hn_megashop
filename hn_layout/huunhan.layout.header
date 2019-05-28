@@ -17,14 +17,48 @@
 				</div>
 				<div class="col-12 col-sm-8 col-lg-4 col-xl-5 text-right">
 					<a href="" class="d-none d-xl-inline">Danh sách mong muốn</a>
-					<a href="">Đăng nhập</a>
-					<a href="">Đăng ký</a>
+					<a href="huunhan.dangnhap.php">Đăng nhập</a>
+					<a href="huunhan.dangky.php">Đăng ký</a>
 					<div class="hn-header-cart">
 						<a href="">
 							<i class="fas fa-shopping-cart"></i>
 							<span class="d-none d-sm-inline"> Giỏ hàng </span>
 							<span>(0)</span>
 						</a>
+						<div class="cart-hidden">
+							<div class="cart-small-item">
+								<div class="row">
+									<div class="col-5 cart-thumb">
+										<a href=""><img src="https://bizweb.dktcdn.net/100/109/381/products/8bga6dorkoto1zoom.jpg?v=1469632683513" alt=""></a>
+									</div>
+									<div class="col-7">
+										<h6><a>Tủ quần áo hiện đại</a></h6>
+										<p><strong>1.800.000</strong></p>
+										<span>Số lượng</span><input type="number" min="1" max="9" step="1" value="1" class="ml-2">
+										<button class="btn-primary w-100 mt-2 py-2">Bỏ ra khỏi giỏ hàng</button>
+									</div>
+
+								</div>
+							</div>
+							<div class="cart-small-item">
+								<div class="row">
+									<div class="col-5 cart-thumb">
+										<a href=""><img src="https://bizweb.dktcdn.net/100/109/381/products/8bga6dorkoto1zoom.jpg?v=1469632683513" alt=""></a>
+									</div>
+									<div class="col-7">
+										<h6><a>Tủ quần áo hiện đại</a></h6>
+										<p><strong>1.800.000</strong></p>
+										<span>Số lượng</span><input type="number" min="1" max="9" step="1" value="1" class="ml-2">
+										<button class="btn-primary w-100 mt-2 py-2">Bỏ ra khỏi giỏ hàng</button>
+									</div>
+
+								</div>
+							</div>
+							<div class="cart-content">
+								<span>Tổng tiền tạm tính: <strong>1.800.000</strong></span>
+								<button class="btn-primary w-100 mt-2 py-2"><h6>Tiến hành thanh toán</h6></button>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
