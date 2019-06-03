@@ -450,7 +450,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="d-none hn-list row text-center">
+					<div class="d-none hn-list row text-center text-md-left">
 						<div class="col-12">
 							<div class="row">
 								<div class="col-12 col-md-5">

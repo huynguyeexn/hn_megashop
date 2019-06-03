@@ -47,7 +47,6 @@ img{
 
 /*
 
-
 ██╗  ██╗███████╗ █████╗ ██████╗ ███████╗██████╗ 
 ██║  ██║██╔════╝██╔══██╗██╔══██╗██╔════╝██╔══██╗
 ███████║█████╗  ███████║██║  ██║█████╗  ██████╔╝
@@ -515,7 +514,7 @@ img{
    	background-color: #3AB54A;
    	color: white;
    	padding: 10px 5px;
-   	margin: 0 5px;
+   	margin-right: 5px;
 }
 .hn-product-item .sale{
     height: 30px;
@@ -550,69 +549,6 @@ img{
     font-size: 1em;
     display: inline-block;
     color: #adadad;
-}
-.hn-list .sale{
-	z-index: 1;
-	display: inline-block;
-	padding: 0 10px;
-    height: 30px;
-    text-align: center;
-    position: absolute;
-    background-color: #3AB54A;
-}
-.hn-list .sale span{
-    color: white;
-    line-height: 30px;
-}
-.hn-list .hn-button-wrap {
-    display: block;
-    position: inherit;
-    width: fit-content;
-    left: 0;
-    top: 0;
-    visibility: visible;
-    opacity: 1;
-    transform: unset;
-    transition: unset;
-}
-
-.hn-list .hn-product-button:hover{
-	transition: background 0.5s;
-       background: #2D7D38;
-}
-.hn-list .hn-product-button{
-	display: inline-block;
-	cursor:pointer;
-   	background-color: #3AB54A;
-   	color: white;
-   	padding: 10px 5px;
-   	margin: 0 5px;
-}
-.hn-list > div{
-	margin-bottom: 10px;
-	border: 1px solid rgba(0,0,0,0.2);
-	padding: 20px;
-	border-radius: 5px;
-}
-.hn-list > div:hover{
-	transition: all 0.3s;
-	transform: scale(1.02);
-}
-.hn-list .item-star{
-	color: #FFD200;
-	font-size: 0.8rem;
-}
-.hn-list .item-price{
-	margin: 15px 0px;
-	color: #3AB54A;
-}
-.hn-list .item-price .special-price{
-	display: inline-block;
-}
-.hn-list .item-price .old-price{
-	display: inline-block;
-    color: #adadad;
-    text-decoration: line-through;
 }
 
 
@@ -1145,7 +1081,84 @@ footer a{
 	color: #FF4F4F;
 }
 
+.hn-list .item-title a{
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+.hn-list .item-title a{
+	font-weight: bold;
+	font-size: 1.2rem;
+}
 
+.hn-list .sale{
+	z-index: 1;
+	display: inline-block;
+	padding: 0 10px;
+    height: 30px;
+    text-align: center;
+    position: absolute;
+    background-color: #3AB54A;
+}
+.hn-list .sale span{
+    color: white;
+    line-height: 30px;
+}
+.hn-list .hn-button-wrap {
+    display: block;
+    position: inherit;
+    width: fit-content;
+    left: 0;
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+    transform: unset;
+    transition: unset;
+    opacity: 0;
+}
+
+.hn-list >div:hover .hn-button-wrap {
+	opacity: 1;
+	transition: 1s;
+}
+.hn-list .hn-product-button:hover{
+	transition: background 0.5s;
+       background: #2D7D38;
+}
+.hn-list .hn-product-button{
+	display: inline-block;
+	cursor:pointer;
+   	background-color: #3AB54A;
+   	color: white;
+   	padding: 10px 5px;
+   	margin-right: 5px;
+}
+.hn-list > div{
+	margin-bottom: 10px;
+	border: 1px solid rgba(0,0,0,0.2);
+	padding: 20px;
+	border-radius: 5px;
+}
+.hn-list > div:hover{
+	transition: all 0.3s;
+	transform: scale(1.02);
+}
+.hn-list .item-star{
+	color: #FFD200;
+	font-size: 0.8rem;
+}
+.hn-list .item-price{
+	margin: 0 0 10px 0;
+	color: #3AB54A;
+}
+.hn-list .item-price .special-price{
+	font-weight: bold;
+	display: inline-block;
+}
+.hn-list .item-price .old-price{
+	display: inline-block;
+    color: #adadad;
+    text-decoration: line-through;
+}
 /*
 
 ███████╗ █████╗ ███╗   ██╗    ██████╗ ██╗  ██╗ █████╗ ███╗   ███╗
